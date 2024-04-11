@@ -687,6 +687,10 @@ video {
   right: 1vw;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -749,6 +753,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .box-border {
@@ -1472,6 +1480,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1943,6 +1955,11 @@ video {
 
 .border-\[var\(--gray-100\)\] {
   border-color: var(--gray-100);
+}
+
+.border-\[\#809aff\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 154 255 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
