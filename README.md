@@ -6,7 +6,7 @@
 ## then 
 # npm run build 
 ## then 
-## use live server on vscode
+# use live server on vscode
 
 ## Deployed link https://dacoiddigital.netlify.app
 
