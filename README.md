@@ -1,6 +1,8 @@
 
 # Web Dev Assignment by Dacoid Digital
 
+This is developed using HTML and TailwindCss
+
 ## To run this web site locally  
 # npm install
 ## then 
