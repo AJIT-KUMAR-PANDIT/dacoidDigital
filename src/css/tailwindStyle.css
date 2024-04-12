@@ -687,12 +687,32 @@ video {
   right: 2.25rem;
 }
 
+.right-\[111px\] {
+  right: 111px;
+}
+
+.bottom-\[111px\] {
+  bottom: 111px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .float-start {
@@ -923,6 +943,18 @@ video {
   height: 100vw;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[71px\] {
+  height: 71px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1029,6 +1061,14 @@ video {
 
 .w-\[263px\] {
   width: 263px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[71px\] {
+  width: 71px;
 }
 
 .flex-shrink {
@@ -1905,6 +1945,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-\[100\%\] {
+  border-radius: 100%;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2100,6 +2144,25 @@ video {
   background-image: linear-gradient(94deg, rgba(129, 157, 255, 0.28) 0%, rgba(16, 16, 16, 0.28) 100%);
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-\[\#e9b1e0\] {
+  --tw-gradient-from: #e9b1e0 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(233 177 224 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-transparent {
+  --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#d3a5f2\] {
+  --tw-gradient-to: #d3a5f2 var(--tw-gradient-to-position);
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2185,6 +2248,10 @@ video {
   background-origin: content-box;
 }
 
+.fill-\[linear-gradient\(91deg\2c _\#e9b1e0_0\%\2c _\#d3a5f2_100\%\)\] {
+  fill: linear-gradient(91deg, #e9b1e0 0%, #d3a5f2 100%);
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -2250,6 +2317,10 @@ video {
 
 .pl-9 {
   padding-left: 2.25rem;
+}
+
+.pb-\[111px\] {
+  padding-bottom: 111px;
 }
 
 .text-left {
